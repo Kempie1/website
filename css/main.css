@@ -1,0 +1,87 @@
+h1{
+  top:10%;
+}
+body{
+    position:relative;
+}
+a{
+    color:white;
+
+}
+
+a:hover{
+    color:black;
+}
+
+.navbar{
+    padding:0;
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 999;
+
+
+}
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: dimgray;
+
+}
+.navbar.fixed-top a{
+    color:black;
+}
+.navbar ul{
+    width:100%;
+    float:left;
+}
+
+
+.navbar li a{
+    padding:25px;
+    width:100px;
+    text-align: center;
+    height:80px;
+}
+.navbar li a:hover{
+    background-color:white;
+}
+.navbar li a.active{
+    background-color:white;
+    color:black;
+}
+.carousel{
+    height:500px;
+    overflow:hidden;
+    position:relative;
+}
+.carousel h2{
+    position: absolute;
+    bottom:10%;
+    left:0;
+    right:0;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+
+}
+.red{
+
+  margin: auto;
+}
+.wiki{
+  text-align:center;
+}
+.top{
+  margin-top: 20%;
+}
+.bio{
+  text-align:center;
+}
+.white{
+  color:white;
+}
